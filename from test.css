@@ -1,0 +1,75 @@
+.outer{
+    margin: right; 
+    height:400px; 
+    width:400px; 
+    border: 1px solid black; 
+    position:relative; 
+    background-color:greenyellow;
+    }
+    h1{
+        color: blue;
+        size: 2px;
+    }
+    html{
+        background-color: darkgreen;
+    } 
+    p{ 
+    margin-left:50px; 
+    } 
+    .in{ 
+    margin-left:80px; 
+    padding:15px 
+    } 
+    #bt{ 
+    margin-top:20px; 
+    position:absolute; 
+    left:150px; 
+    } 
+    #bt:hover{ 
+    background:green; 
+    font-size:13px; 
+    cursor:pointer; 
+    color:black; 
+    } 
+    label{
+        padding: 35px; 
+    }
+   img{
+width: 250px;
+height: 260px;
+padding-right: 3px;
+   }
+   a{
+    color: crimson;
+   }
+   a:hover{
+    color: blue;
+   }
+   #L{
+    size: 500px;text-decoration: none;
+    color: rgb(197, 21, 21)
+    ;}
+    #po{
+        color: rgb(225, 0, 255);
+        background-color: cadetblue;
+    }
+    #su{
+        background-color: darkcyan;
+    }
+    #Li{
+text-decoration: none;
+background-color: blue;
+        color: blue;
+    }
+    Li:hover{
+        color:red;
+    }
+    
+    #U{
+        text-decoration: none;
+        background-color: blue;
+                color: blue;
+            }
+            U:hover{
+                color:red;
+            }
