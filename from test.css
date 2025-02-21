@@ -1,75 +1,136 @@
-.outer{
-    margin: right; 
-    height:400px; 
-    width:400px; 
-    border: 1px solid black; 
-    position:relative; 
-    background-color:greenyellow;
-    }
-    h1{
-        color: blue;
-        size: 2px;
-    }
-    html{
-        background-color: darkgreen;
-    } 
-    p{ 
-    margin-left:50px; 
-    } 
-    .in{ 
-    margin-left:80px; 
-    padding:15px 
-    } 
-    #bt{ 
-    margin-top:20px; 
-    position:absolute; 
-    left:150px; 
-    } 
-    #bt:hover{ 
-    background:green; 
-    font-size:13px; 
-    cursor:pointer; 
-    color:black; 
-    } 
-    label{
-        padding: 35px; 
-    }
-   img{
-width: 250px;
-height: 260px;
-padding-right: 3px;
-   }
-   a{
-    color: crimson;
-   }
-   a:hover{
+.outer {
+    margin: right;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    position: relative;
+    background-color: greenyellow;
+}
+
+h1 {
     color: blue;
-   }
-   #L{
-    size: 500px;text-decoration: none;
-    color: rgb(197, 21, 21)
-    ;}
-    #po{
-        color: rgb(225, 0, 255);
-        background-color: cadetblue;
-    }
-    #su{
-        background-color: darkcyan;
-    }
-    #Li{
-text-decoration: none;
-background-color: blue;
-        color: blue;
-    }
-    Li:hover{
-        color:red;
-    }
-    
-    #U{
-        text-decoration: none;
-        background-color: blue;
-                color: blue;
-            }
-            U:hover{
-                color:red;
-            }
+    size: 2px;
+}
+
+html {
+    background-color: darkgreen;
+}
+
+p {
+    margin-left: 50px;
+}
+
+.in {
+    margin-left: 80px;
+    padding: 15px
+}
+
+#bt {
+    margin-top: 20px;
+    position: absolute;
+    left: 150px;
+}
+
+#bt:hover {
+    background: green;
+    font-size: 13px;
+    cursor: pointer;
+    color: black;
+}
+
+label {
+    padding: 35px;
+}
+
+
+a {
+    color: crimson;
+}
+
+a:hover {
+    color: blue;
+}
+
+#L {
+    size: 500px;
+    text-decoration: none;
+    color: rgb(197, 21, 21);
+}
+
+#po {
+    color: rgb(225, 0, 255);
+    background-color: cadetblue;
+}
+
+#su {
+    background-color: darkcyan;
+}
+
+#Li {
+    text-decoration: none;
+    background-color: blue;
+    color: blue;
+}
+
+Li:hover {
+    color: red;
+}
+
+#U {
+    text-decoration: none;
+    background-color: blue;
+    color: blue;
+}
+
+U:hover {
+    color: red;
+}
+
+.web {
+    background-color: rgb(196, 238, 255);
+    color: blue;
+
+}
+
+.di {
+    background-color: goldenrod;
+    border-color: rgb(251, 5, 5) solid;
+    border: 4px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.deg {
+    color: rgb(85, 5, 245);
+    background-color: greenyellow;
+    padding: 2px;
+    position: center;
+    text-align: left;
+    size: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.im {
+    border-radius: 30%;
+    height: 200px;
+    width: 180px;
+    border-image-width: 2px;
+
+
+}
+
+.co {
+    background-color: cadetblue;
+    border-width: 2px;
+    border-width: 3px;
+    color: greenyellow;
+
+}
+
+co:hover {
+    color: rgb(18, 0, 100);
+
+}
