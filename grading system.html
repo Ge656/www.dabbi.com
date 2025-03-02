@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment & Grade System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2
+            style="background-color: rgb(200, 231, 241);color: rgb(10, 18, 253);border-style: double;border-color: brown;">
+            Student Enrollment & Grade System by Getahun</h2>
+
+        <!-- Enrollment Form -->
+        <section id="enrollment">
+            <h2>Enroll Student</h2>
+            <form id="enrollForm">
+                <input type="text" id="studentName" placeholder="Student Name" required <input type="text"
+                    id="studentId" placeholder="Student ID" required>
+                <input type="text" id="course" placeholder="Course" required>
+                <button style="color: blue;" type="submit">Enroll now</button>
+            </form>
+        </section>
+
+        <!-- Grade Input Form -->
+        <section id="gradeInput">
+            <h2>Add Grade</h2>
+            <form id="gradeForm">
+                <input type="text" id="gradeStudentId" placeholder="Student ID" required>
+                <input type="number" id="grade" placeholder="Grade (0-100)" min="0" max="100" required>
+                <button style="color: blue;" type="submit">Add Grade</button>
+            </form>
+        </section>
+
+        <!-- Grade Display -->
+        <section id="gradeDisplay">
+            <h2>Student Grades</h2>
+            <input type="password" id="password" placeholder="Enter Password to View Grades">
+            <button style="color: blue;" onclick="viewGrades()">View Grades & Other informations</button>
+            <table id="gradeTable">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody id="gradeTableBody"></tbody>
+            </table>
+        </section>
+    </div>
+    <script src="scripts.js"></script>
+
+
+</body>
+
+</html>
